@@ -73,7 +73,7 @@ export const AnalysisPage: React.FC<AnalysisPageProps> = ({ onBack, onAnalysisCo
   const fileInputRef = useRef<HTMLInputElement>(null);
   
   // Use the provided key for the demo
-  const [apiKey] = useState('AIzaSyCq-1A8E4_Eed-NOlwVrnRbv24xF29RA6s');
+  const [apiKey] = useState('');
 
   const handleFileSelect = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
